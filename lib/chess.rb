@@ -1,3 +1,16 @@
+module Colors
+  BLACK = 0
+  WHITE = 1
+
+  def self.color_black
+    BLACK
+  end
+
+  def self.color_white
+    white
+  end
+end
+
 class Game
   def initialize
     
@@ -17,8 +30,11 @@ class Square
 end
 
 class Player
-  def initialize
-    
+  attr_reader :name, :color
+
+  def initialize(args)
+    @name = args[:name]
+    @color = args[:color]
   end
 end
 
@@ -63,3 +79,6 @@ class Queen < GamePiece
     
   end
 end
+
+
+puts Colors.color_black
