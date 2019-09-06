@@ -1,13 +1,13 @@
-module Colors
-  BLACK = 0
-  WHITE = 1
+module Color
+  WHITE = 2
+  BLACK = 3
 
-  def self.color_black
-    BLACK
+  def color_black 
+    return BLACK
   end
-
-  def self.color_white
-    white
+  
+  def color_white
+    return WHITE
   end
 end
 
@@ -24,12 +24,16 @@ class Board
 end
 
 class Square
+
+  extend Color
+
   def initialize
     
   end
 end
 
 class Player
+  extend Color
   attr_reader :name, :color
 
   def initialize(args)
@@ -39,6 +43,9 @@ class Player
 end
 
 class GamePiece
+
+  extend Color
+
   def initialize
     
   end
@@ -79,6 +86,3 @@ class Queen < GamePiece
     
   end
 end
-
-
-puts Colors.color_black
