@@ -1,0 +1,295 @@
+--- !ruby/object:SavedObjects
+turn: 1
+board: &1 !ruby/object:Board
+  board:
+  - - !ruby/object:Rook
+      name: Rook
+      board: *1
+      color: 1
+      id: 31885204542
+      location:
+      - 0
+      - 0
+    - !ruby/object:Knight
+      name: Knight
+      board: *1
+      color: 1
+      id: 5223751249270
+      location:
+      - 0
+      - 1
+    - !ruby/object:Bishop
+      name: Bishop
+      board: *1
+      color: 1
+      id: 4003320409842
+      location:
+      - 0
+      - 2
+    - !ruby/object:Queen
+      name: Queen
+      board: *1
+      color: 1
+      id: 2582907037022
+      location:
+      - 0
+      - 3
+    - !ruby/object:King
+      name: King
+      board: *1
+      color: 1
+      id: 675723530333
+      location:
+      - 0
+      - 4
+    - !ruby/object:Bishop
+      name: Bishop
+      board: *1
+      color: 1
+      id: 21198211069
+      location:
+      - 0
+      - 5
+    - !ruby/object:Knight
+      name: Knight
+      board: *1
+      color: 1
+      id: 8020518988384
+      location:
+      - 0
+      - 6
+    - !ruby/object:Rook
+      name: Rook
+      board: *1
+      color: 1
+      id: 444661650036
+      location:
+      - 0
+      - 7
+  - - 
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 1
+      id: 1487912876975
+      location:
+      - 1
+      - 1
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 1
+      id: 819662907570
+      location:
+      - 1
+      - 2
+    - 
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 1
+      id: 1898132261818
+      location:
+      - 1
+      - 4
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 1
+      id: 870347346530
+      location:
+      - 1
+      - 5
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 1
+      id: 381625845799
+      location:
+      - 1
+      - 6
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 1
+      id: 5426645912063
+      location:
+      - 1
+      - 7
+  - - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 0
+      id: 1510264039111
+      location:
+      - 3
+      - 0
+    - 
+    - 
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 1
+      id: 87277990480
+      location:
+      - 3
+      - 3
+    - 
+    - 
+    - 
+    - 
+  - - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 0
+      id: 1956529426482
+      location:
+      - 6
+      - 0
+    - 
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 0
+      id: 4084438993797
+      location:
+      - 6
+      - 2
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 0
+      id: 129540771554
+      location:
+      - 6
+      - 3
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 0
+      id: 132402340500
+      location:
+      - 6
+      - 4
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 0
+      id: 173556418152
+      location:
+      - 6
+      - 5
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 0
+      id: 132196898894
+      location:
+      - 6
+      - 6
+    - !ruby/object:Pawn
+      name: Pawn
+      board: *1
+      color: 0
+      id: 3802270664318
+      location:
+      - 6
+      - 7
+  - - !ruby/object:Rook
+      name: Rook
+      board: *1
+      color: 0
+      id: 1592222195764
+      location:
+      - 7
+      - 0
+    - !ruby/object:Knight
+      name: Knight
+      board: *1
+      color: 0
+      id: 7512543671819
+      location:
+      - 7
+      - 1
+    - !ruby/object:Bishop
+      name: Bishop
+      board: *1
+      color: 0
+      id: 288123491842
+      location:
+      - 7
+      - 2
+    - !ruby/object:Queen
+      name: Queen
+      board: *1
+      color: 0
+      id: 2293708619958
+      location:
+      - 7
+      - 3
+    - !ruby/object:King
+      name: King
+      board: *1
+      color: 0
+      id: 3409841900085
+      location:
+      - 7
+      - 4
+    - !ruby/object:Bishop
+      name: Bishop
+      board: *1
+      color: 0
+      id: 39643640981
+      location:
+      - 7
+      - 5
+    - !ruby/object:Knight
+      name: Knight
+      board: *1
+      color: 0
+      id: 1766600140526
+      location:
+      - 7
+      - 6
+    - !ruby/object:Rook
+      name: Rook
+      board: *1
+      color: 0
+      id: 1492308161493
+      location:
+      - 7
+      - 7
+  history:
+    :move:
+      '1834452307510':
+      - 1834452307510 moved from [1, 0] to [3, 0]
+      '1510264039111':
+      - 1510264039111 moved from [6, 1] to [4, 1]
+      - 1510264039111 moved from [4, 1] to [3, 0]
+      '87277990480':
+      - 87277990480 moved from [1, 3] to [3, 3]
+    :kill: {}
